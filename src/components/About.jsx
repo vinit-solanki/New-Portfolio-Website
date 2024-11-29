@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot, faDotCircle } from "@fortawesome/free-solid-svg-icons";
 import HTML5 from "../assets/html.png";
 import CSS3 from "../assets/css.png";
-import JavaScript from "../assets/javaScript.png";
+import JavaScript from "../assets/js.png";
 import ReactImg from "../assets/react.png";
 import CPP from "../assets/cpp.png";
 import Python from "../assets/python.png";
