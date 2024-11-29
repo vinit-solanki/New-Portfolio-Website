@@ -2,6 +2,12 @@ import React from "react";
 import "../App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot, faDotCircle } from "@fortawesome/free-solid-svg-icons";
+import HTML5 from "../assets/HTML5.png";
+import CSS3 from "../assets/CSS3.png";
+import JavaScript from "../assets/JavaScript.png";
+import ReactImg from "../assets/react.png";
+import CPP from "../assets/CPP.png";
+import Python from "../assets/Python.png";
 
 function About() {
   return (
@@ -23,42 +29,42 @@ function About() {
                 width={60}
                 height={50}
                 className="bg-red-300 rounded-md m-1 hover:scale-110 transition duration-400 shadow-lg shadow-red-300"
-                src="../src/assets/HTML5.png"
+                src={HTML5}
                 alt="HTML"
               />
               <img
                 width={60}
                 height={50}
                 className="bg-violet-300 rounded-md m-1 hover:scale-110 transition duration-400 shadow-lg shadow-violet-300"
-                src="../src/assets/CSS3.png"
+                src={CSS3}
                 alt="CSS"
               />
               <img
                 width={60}
                 height={50}
                 className="bg-yellow-700 rounded-md m-1 hover:scale-110 transition duration-400 shadow-lg shadow-yellow-700"
-                src="../src/assets/JavaScript.png"
+                src={JavaScript}
                 alt="JS"
               />
               <img
                 width={60}
                 height={50}
                 className="rounded-md m-1 hover:scale-110 transition duration-400 shadow-lg shadow-blue-300"
-                src="../src/assets/react.png"
+                src={ReactImg}
                 alt="React.js"
               />
               <img
                 width={60}
                 height={50}
                 className="bg-white bg-opacity-50 rounded-md m-1 hover:scale-110 transition duration-400 shadow-lg shadow-white"
-                src="../src/assets/CPP.png"
+                src={CPP}
                 alt="C/C++"
               />
               <img
                 width={60}
                 height={50}
                 className="bg-yellow-950 rounded-md m-1 hover:scale-110 transition duration-400 shadow-lg shadow-yellow-300"
-                src="../src/assets/Python.png"
+                src={Python}
                 alt="Python"
               />
             </div>
