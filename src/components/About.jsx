@@ -2,12 +2,12 @@ import React from "react";
 import "../App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot, faDotCircle } from "@fortawesome/free-solid-svg-icons";
-import HTML5 from "../assets/HTML5.png";
-import CSS3 from "../assets/CSS3.png";
-import JavaScript from "../assets/JavaScript.png";
-import ReactImg from "../assets/React.png";
-import CPP from "../assets/CPP.png";
-import Python from "../assets/Python.png";
+import HTML5 from "../assets/html.png";
+import CSS3 from "../assets/css.png";
+import JavaScript from "../assets/javaScript.png";
+import ReactImg from "../assets/react.png";
+import CPP from "../assets/cpp.png";
+import Python from "../assets/python.png";
 
 function About() {
   return (
